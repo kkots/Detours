@@ -27,7 +27,7 @@ endif
 
 CFLAGS:=$(CFLAGS) \
     -m32 \
-    -mdll
+    -mdll \
     -masm=intel \
     -march=pentium3 \
     -mavx \
